@@ -1,0 +1,18 @@
+
+
+/*** About ***/
+.about-img {
+    position: relative;
+    overflow: hidden;
+} 
+
+.about-img::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../../../assets/img/bg-about-img.png) top left no-repeat;
+    background-size: contain;
+}
